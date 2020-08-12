@@ -1,0 +1,27 @@
+# URL Include 
+>> App 별로 URL을 관리할 수 있도록 구조화
+
+## App
+>>App 폴더 내에 urls.py 생성 후,
+~~~
+<div>
+from django.urls import path
+from .import views
+
+Urlpatterns = [
+	path()
+    ]
+~~~
+</div>
+
+## Project/urls.py
+~~~
+<div>
+
+     from django.urls import path include
+ 
+     urlpatterns = [
+     path('url/', include('app이름.urls'))
+     ]
+~~~
+</div>
