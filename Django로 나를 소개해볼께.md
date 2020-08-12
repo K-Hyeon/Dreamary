@@ -42,3 +42,5 @@ class Designer(models.Model):
 
 
 >> admin.site.register(Designer)
+
+
