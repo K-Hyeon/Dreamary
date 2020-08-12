@@ -66,6 +66,12 @@ def home(request):
 </div>
 ~~~
 
+* Queryset & Method : 전달받은 객체 목록, 그리고 이를 다루는 법
+* PK : Model을 통해 생성된 객체들을 구분할 수 있는 고유한 키
+* Path Convertor : 여러 객체의 url을 계층적으로 다룰 수 있도록 도와주는 도구
+* get_object_or_404 : 객체를 가져오려 했는데 없을 경우 나타나는 에러
+
+
 
 
 
